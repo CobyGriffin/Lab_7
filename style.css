@@ -1,0 +1,78 @@
+.blockquote{
+    color: white;
+    margin: 2em;
+    padding: 1em;
+    font-style: italic;
+}
+.home{
+    margin: 0;
+    text-align: center;
+    
+}
+
+.Clutch{
+    p::first-letter{
+    Color: green;
+    font-size: larger;
+    text-align: left;
+}
+}
+.Image-left{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: visible;
+    border: 1px solid #ccc;
+}
+.Image-Overlay{
+    width: 40%;
+    height: 30%;
+    transition:left 2s linear 0s;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.Text-Overlay{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 100;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+}
+.Image-Overlay:hover .Image-Overlay{
+    transform:rotate(90);
+}
+.Text-Overlay:hover .Text-Overlay{
+    opacity: 1;
+}
+
+.Final{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+header{
+    background-color: white;
+    color: black;
+    font:300;
+    text-align: center;
+    word-spacing: 8rem;
+    
+}
+main {
+    h1, h2, h3, p{
+        text-align: center;
+        color: white;
+    }
+}
+body{
+    background-color: black;
+}
